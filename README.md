@@ -31,3 +31,5 @@ docker run --name jenkins-blueocean --rm --detach \
 ```
 docker exec ${CONTAINER_ID or CONTAINER_NAME} cat /var/jenkins_home/secrets/initialAdminPassword 
 ```
+### Install Plugin
+*Name:*Docker Compose Build
